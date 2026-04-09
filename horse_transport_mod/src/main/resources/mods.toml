@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="horse_transport"
+version="1.0.0"
+displayName="Horse Transport Mod"
+authors="Developer"
+description='''
+A mod that adds a horse transport vehicle that can carry any animal.
+'''
+
+[[dependencies.horse_transport]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.horse_transport]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
